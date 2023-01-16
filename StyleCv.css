@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Rowdies:wght@700&display=swap');
+
+
+nav{
+ margin: 0;
+ background-color: #C29898;
+ 
+ justify-content: space-between;
+ padding: 0;
+ margin-bottom: 0;
+}
+
+.Nav-Bar img{
+    height: 60px;
+    margin-left: 20px;
+}
+  
+/* ================================================ */
+.main-bar{
+    /* background-color: aqua; */
+    margin: auto;
+    margin-top: 0;
+    padding: 0;
+    background-image: url(Imagenes/fondo.png);
+    background-size: cover;
+    
+    
+}
+.main-title{
+    text-align: center;
+}
+.main-son{
+    display: flex;
+    
+    /* b    ackground-color: antiquewhite; */
+    padding: 10px;
+}
+.content-primario{
+    /* background-color: blueviolet; */
+    /* text-align: center; */
+    margin-left: 40px;
+     max-width: 250px;
+    
+}
+
+
+.primario-img{
+    max-width: 200px;
+    margin: auto;
+}
+.primario-img img{
+width: 100%;
+border-radius: 50px;
+}
+.content-primario h1{
+    font-family: 'Rowdies', cursive;
+    font-size: 40PX;
+}
+.content-secundario{
+    /* background-color: brown; */
+    /* text-align: justify;  */
+    height: 100;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px; 
+    margin: auto;
+    margin-top: -20px;
+    margin-right: 30%;
+}
+
+.main2{
+ justify-content: right;
+
+}
+
+.content-primario2{
+    text-align: center;
+    /* background-color: brown; */
+    margin-right: 40px;
+    max-width: 250px;
+}
+
+.content-primario2 h1{
+    font-family: 'Rowdies', cursive;
+    font-size: 40PX;
+}
+
+.content-secundario2{
+    /* text-align: center; */
+    /* background-color:  yellow; */
+    
+    height: 100;
+    padding: 20px;
+    padding-top: 40px;   
+    font-size: 20px; 
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    margin-top: -20px;
+    margin-left: 32% ;
+}
+
+/* ================================ */
+.bar-html{
+    margin-left:60px ;
+}
+.main-tec{
+background-image: none;
+}
+
+/* ==================================== */
+
+footer{
+    background-color: #707070;
+    display: flex;
+}
+footer .arroba{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.colum_1{
+    width: 8.333333333%;
+    }
+    .colum_2{
+        width: 16.66666%;
+    }
+    .colum_3{
+        width: 24.99999%;
+    }
+    .colum_4{
+        width: 33.33332% ;
+    }
+    .colum_5{
+        width:41.66665%;
+    }
+    .colum_6{
+        width: 49.9998%;
+    }
+    .colum_7{
+        width: 58.33331%;
+    }
+    .colum_8{
+        width: 66.66664%;
+    }
+    .colum_9{
+        width:74.99997% ;
+    }
+    .colum_10{
+        width:83.3333% ;
+    }
+    .colum_11{
+        width:91.66663% ;
+    }
+    .colum_12{
+        width: 100% ;
+    }

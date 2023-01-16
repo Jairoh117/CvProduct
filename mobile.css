@@ -1,0 +1,27 @@
+@media(max-width: 600px){
+ 
+body{
+    background-color: yellow;
+}
+
+.productos{
+    display: inherit;
+  
+}
+
+.description_bar{
+    display: inherit;
+    /*margin-bottom:100%;*/
+}
+.seccion_padre{
+    display: inherit;
+}
+
+.comen{
+    display: inherit;
+}
+
+
+
+
+}

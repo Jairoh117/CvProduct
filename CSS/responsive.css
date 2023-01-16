@@ -1,0 +1,36 @@
+
+@media(max-width: 600px){
+    
+    .main-son{
+        display: inherit;
+        
+    }
+
+
+    .content-primario, .content-primario2{
+        margin: auto;
+        
+    }
+    .primario-img, .content-primario , .content-primario2{
+        width: 200px;
+    }
+    .content-secundario, .content-secundario2{
+        width: 200px;
+        margin: auto;
+    }
+    footer{
+        display: inherit;
+        text-align: center;
+    }
+    .colum_2, .colum_8, .colum_8 h2{
+        width: 100px;
+        margin: auto;
+        padding: 0;
+        
+        text-align: center;
+    }
+    footer .arroba{
+        width: 200px;
+    }
+}
+
