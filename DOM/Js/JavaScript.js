@@ -1,4 +1,4 @@
-let mostrar =(a )=>{
+let m =(a )=>{
     return console.log(a);
    }
    
@@ -109,23 +109,120 @@ console.log(persona.a(5))
 // pruebaetiqueta[2].textContent = 'Cesar';
 
 //Seleccionamos las clases
-var prueba = document.querySelector('#main-header');
- mostrar(prueba);
-//Modificamos su estilo
-prueba.style.border =' solid black';
+// var prueba = document.querySelector('#main-header');
+//  mostrar(prueba);
+// //Modificamos su estilo
+// prueba.style.border =' solid black';
 
- var prueba2 = document.querySelector('.list-group-item')
-mostrar(prueba2);
-prueba2.style.border=' solid black';
+//  var prueba2 = document.querySelector('.list-group-item')
+// mostrar(prueba2);
+// prueba2.style.border=' solid black';
 
-var prueba3 = document.querySelectorAll('.list-group-item');
+// var prueba3 = document.querySelectorAll('.list-group-item');
 
-for(let a in prueba3){
- prueba3[a].style.color='red';
- prueba3[a].style.border=' solid black';
+// for(let a in prueba3){
+// //  prueba3[a].style.color='red';
+// //  prueba3[a].style.border=' solid black';
  
-} 
+// } 
 
-var submit = document.querySelector('input[type=submit]')
+// var submit = document.querySelector('input[type="submit"]')
+// submit.value= "Enviar";
+// // mostrar(submit);
 
-mostrar(submit);
+
+// //parentnode //se nos da la etiqueta contenedor del padre
+//  let itemlist = document.querySelector('#items');
+// m(itemlist.parentNode);
+ 
+// // ===================
+// //parentElement
+// // Nos muestra los elementos del contenedor
+// mostrar(itemlist.parentElement);
+ 
+
+
+
+// // =========ChildNodes==========
+
+// mostrar(itemlist.childNodes)
+
+// // =========Children==========
+// mostrar(itemlist.children)
+
+// // firstChild
+// //firtelementChile
+// // primer elemento de la lista
+// mostrar(itemlist.firstElementChildChild);
+
+// //Lastchild
+// //Ultimo elemento de la lista
+// mostrar(itemlist.lastChild);
+
+// previusSibling
+// mostrar(itemlist.previousElementSibling)
+ 
+// // nextelementsiblibd
+
+// mostrar(itemlist.nextElementSibling)
+
+
+
+// // Crear elementos en nuestra pagina web
+
+// var nuevodiv = document.createElement('div');
+// nuevodiv.className= 'hola';
+// nuevodiv.id= 'div-hola';
+// nuevodiv.setAttribute('title','Hola mundo');
+
+// // create text mode
+// var nuevonodotext = document.createTextNode('hola mundo')
+// nuevodiv.appendChild(nuevonodotext)
+
+// m(nuevodiv)
+
+// // agregarlo a la pagina html
+
+// var contenedor = document.querySelector('.container')
+
+// var h1 = document.querySelector('h1');
+// m(h1);
+
+// contenedor.insertBefore(nuevodiv,h1)
+
+
+
+// eventos
+// // onclick para le html
+// function hacerclick(){
+//     alert("creaste una funcion y la conectaste");
+// }
+
+// //forma correcta de hacer los eventos 
+// document.getElementById('id').addEvenelistener('click', ()=>{
+//     alert("Xd");
+// })
+
+// agregar un elemento
+
+var form = document.getElementById('agregarform');
+
+var lista = document.getElementById('items')
+
+
+form.addEventListener('submit', (e)=>{
+    e.preventDefault();
+    var nuevoitem = document.getElementById('itemEnviar').value;
+
+    var li = document.createElement('li');
+
+    li.className='list-group-item';
+    li.appendChild(document.createTextNode(nuevoitem));
+    var evebo = document.createElement('button');
+    evebo.className='btn btn-danger btn-sm float-right'
+    evebo.appendChild(document.createTextNode('x'));
+
+    li.appendChild(evebo);
+
+    lista.appendChild(li);
+})
